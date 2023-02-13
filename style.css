@@ -25,3 +25,34 @@ p {
   padding: 0;
   box-sizing: border-box;
 }
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+  width: 100%;
+}
+header p {
+  width: 500px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first,
+.second,
+.third,
+.fourth {
+  width: 300px;
+  border: 2px solid red;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
