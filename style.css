@@ -30,6 +30,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 3rem;
   margin-bottom: 5rem;
   width: 100%;
 }
@@ -46,8 +47,16 @@ header p {
 .second,
 .third,
 .fourth {
-  width: 300px;
+  width: 250px;
   border: 2px solid red;
+  height: 200px;
+  margin-right: 25px;
+  border-radius: 1.2rem;
+  padding: 10px;
+}
+
+.second {
+  margin-bottom: 25px;
 }
 @media screen and (max-width: 600px) {
   .container {
